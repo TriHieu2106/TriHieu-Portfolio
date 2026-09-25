@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta
+    name="description"
+    content="Cybersecurity portfolio of Phạm Trí Hiếu — cybersecurity student and intern."
+  />
+
+  <title>Phạm Trí Hiếu | Information Assurance Portfolio</title>
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- Skip link for keyboard users -->
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <!-- Header -->
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a href="#home" class="logo" aria-label="Go to homepage">
+        <span class="logo-symbol">&lt;/&gt;</span>
+        PTH
+      </a>
+
+      <button
+        class="menu-toggle"
+        id="menuToggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="navLinks"
+        aria-label="Open navigation menu"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <!-- Home -->
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="eyebrow">Hello, world. I'm</p>
+
+          <h1>Phạm Trí Hiếu</h1>
+
+          <p class="hero-role">
+            Information Assurance Student
+            <span class="separator">/</span>
+            <span class="accent-text">Intern</span>
+          </p>
+
+          <p class="hero-description">
+            I am interested in malware analysis, digital forensics,
+            information assurance tools, databases, and web technologies.
+            I enjoy learning how systems work and investigating how they
+            can be secured.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="button button-primary">
+              View Projects
+            </a>
+
+            <a href="#contact" class="button button-secondary">
+              Contact Me
+            </a>
+          </div>
+        </div>
+
+        <div class="terminal-card" aria-label="Developer terminal illustration">
+          <div class="terminal-header">
+            <span class="terminal-dot"></span>
+            <span class="terminal-dot"></span>
+            <span class="terminal-dot"></span>
+            <span>portfolio@security:~</span>
+          </div>
+
+          <div class="terminal-body">
+            <p>
+              <span class="prompt">$</span>
+              whoami
+            </p>
+            <p class="terminal-output">Phạm Trí Hiếu</p>
+
+            <p>
+              <span class="prompt">$</span>
+              cat role.txt
+            </p>
+            <p class="terminal-output">
+              Information Assurance Student / Intern
+            </p>
+
+            <p>
+              <span class="prompt">$</span>
+              status
+            </p>
+            <p class="terminal-output success">
+              Learning. Building. Securing.
+              <span class="cursor" aria-hidden="true"></span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section section-alt" id="about">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-label">01. About</p>
+          <h2>About Me</h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-image" style="text-align: center; margin-bottom: 20px;">
+            <img src="profile.jpg" alt="Phạm Trí Hiếu" style="width: 250px; height: 250px; object-fit: cover; border-radius: 50%; border: 3px solid #4CAF50;">
+          </div>
+          <div class="about-text">
+            <p>
+              I am a Information Assuarnce student building practical experience
+              across malware analysis, digital forensics, database design,
+              and web development.
+            </p>
+
+            <p>
+              My current focus is strengthening my technical foundation by
+              working with security tools, analyzing digital evidence, and
+              understanding how software and infrastructure behave.
+            </p>
+
+            <p>
+              I also enjoy collaborative projects where I can combine
+              technical problem-solving with communication, planning, and
+              leadership.
+            </p>
+          </div>
+
+          <aside class="about-card" aria-label="Quick information">
+            <h3>Quick Info</h3>
+
+            <dl class="info-list">
+              <div>
+                <dt>Name</dt>
+                <dd>Phạm Trí Hiếu</dd>
+              </div>
+
+              <div>
+                <dt>Role</dt>
+                <dd>Intern</dd>
+              </div>
+
+              <div>
+                <dt>Focus</dt>
+                <dd>Information Assuarnce</dd>
+              </div>
+
+              <div>
+                <dt>Status</dt>
+                <dd class="status">
+                  <span class="status-dot"></span>
+                  Open to learning opportunities
+                </dd>
+              </div>
+            </dl>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-label">02. Skills</p>
+          <h2>Tools & Technologies</h2>
+          <p>
+            Technologies and security tools I have worked with during my
+            studies and projects.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-group">
+            <div class="skill-icon" aria-hidden="true">⌁</div>
+            <h3>Security & Analysis</h3>
+
+            <ul class="skill-tags">
+              <li>Kali Linux</li>
+              <li>FlareVM</li>
+              <li>IDA Pro</li>
+              <li>YARA</li>
+              <li>ExifTool</li>
+            </ul>
+          </article>
+
+          <article class="skill-group">
+            <div class="skill-icon" aria-hidden="true">⌗</div>
+            <h3>Database</h3>
+
+            <ul class="skill-tags">
+              <li>SQL Server</li>
+              <li>ERD Design</li>
+              <li>Relational Databases</li>
+            </ul>
+          </article>
+
+          <article class="skill-group">
+            <div class="skill-icon" aria-hidden="true">&lt;/&gt;</div>
+            <h3>Frontend</h3>
+
+            <ul class="skill-tags">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section section-alt" id="projects">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-label">03. Projects</p>
+          <h2>Featured Projects</h2>
+          <p>
+            A selection of academic, information assurance, and leadership projects.
+          </p>
+        </div>
+
+        <!-- Project filters -->
+        <div
+          class="project-filters"
+          role="group"
+          aria-label="Filter projects by category"
+        >
+          <button
+            class="filter-button active"
+            type="button"
+            data-filter="all"
+            aria-pressed="true"
+          >
+            All
+          </button>
+
+          <button
+            class="filter-button"
+            type="button"
+            data-filter="cybersecurity"
+            aria-pressed="false"
+          >
+            Information Assurance
+          </button>
+
+          <button
+            class="filter-button"
+            type="button"
+            data-filter="database"
+            aria-pressed="false"
+          >
+            Database
+          </button>
+
+          <button
+            class="filter-button"
+            type="button"
+            data-filter="leadership"
+            aria-pressed="false"
+          >
+            Leadership
+          </button>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <article
+            class="project-card"
+            data-category="cybersecurity"
+            tabindex="0"
+            role="button"
+            aria-label="View Malware Analysis and Digital Forensics project"
+            data-project="malware"
+          >
+            <div class="project-top">
+              <span class="project-number">01</span>
+              <span class="project-category">Information Assurance</span>
+            </div>
+
+            <h3>Malware Analysis & Digital Forensics</h3>
+
+            <p>
+              Analyzed suspicious samples in an isolated environment using
+              FlareVM and network analysis tools.
+            </p>
+
+            <ul class="project-tech">
+              <li>FlareVM</li>
+              <li>Wireshark</li>
+              <li>YARA</li>
+            </ul>
+
+            <span class="project-link">
+              View details
+              <span aria-hidden="true">→</span>
+            </span>
+          </article>
+
+          <!-- Project 2 -->
+          <article
+            class="project-card"
+            data-category="database"
+            tabindex="0"
+            role="button"
+            aria-label="View Relational Database System project"
+            data-project="database"
+          >
+            <div class="project-top">
+              <span class="project-number">02</span>
+              <span class="project-category">Database</span>
+            </div>
+
+            <h3>Relational Database System</h3>
+
+            <p>
+              Designed a structured relational database with an ERD and
+              ten connected entities using SQL Server.
+            </p>
+
+            <ul class="project-tech">
+              <li>SQL Server</li>
+              <li>ERD</li>
+              <li>SQL</li>
+            </ul>
+
+            <span class="project-link">
+              View details
+              <span aria-hidden="true">→</span>
+            </span>
+          </article>
+
+          <!-- Project 3 -->
+          <article
+            class="project-card"
+            data-category="leadership"
+            tabindex="0"
+            role="button"
+            aria-label="View Sắc Màu Nón Lá Workshop project"
+            data-project="workshop"
+          >
+            <div class="project-top">
+              <span class="project-number">03</span>
+              <span class="project-category">Leadership</span>
+            </div>
+
+            <h3>"Sắc Màu Nón Lá" Workshop</h3>
+
+            <p>
+              Led project coordination, logistics planning, participant
+              communication, and feedback collection systems.
+            </p>
+
+            <ul class="project-tech">
+              <li>Leadership</li>
+              <li>Planning</li>
+              <li>Teamwork</li>
+            </ul>
+
+            <span class="project-link">
+              View details
+              <span aria-hidden="true">→</span>
+            </span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section contact-section" id="contact">
+      <div class="container contact-content">
+        <p class="section-label">04. Contact</p>
+        <h2>Let's Connect</h2>
+
+        <p>
+          I'm interested in opportunities to learn, collaborate, and gain
+          practical experience in information assurance and technology.
+        </p>
+
+        <a
+          class="button button-primary contact-button"
+          href="mailto:phamvinhtri26@gmail.com"
+        >
+          phamvinhtri26@gmail.com
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>
+        © <span id="currentYear"></span> Phạm Trí Hiếu
+      </p>
+
+      <p class="footer-code">
+        Built with HTML, CSS & JavaScript
+      </p>
+    </div>
+  </footer>
+
+  <!-- Project Modal -->
+  <div
+    class="modal"
+    id="projectModal"
+    aria-hidden="true"
+  >
+    <div class="modal-overlay" data-close-modal></div>
+
+    <div
+      class="modal-dialog"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="modalTitle"
+      aria-describedby="modalDescription"
+    >
+      <button
+        class="modal-close"
+        id="modalClose"
+        type="button"
+        aria-label="Close project details"
+      >
+        ×
+      </button>
+
+      <span class="modal-category" id="modalCategory"></span>
+
+      <h2 id="modalTitle"></h2>
+
+      <p id="modalDescription"></p>
+
+      <div class="modal-section">
+        <h3>Highlights</h3>
+        <ul id="modalHighlights"></ul>
+      </div>
+
+      <div class="modal-section">
+        <h3>Technologies / Skills</h3>
+        <div class="modal-tech" id="modalTech"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
