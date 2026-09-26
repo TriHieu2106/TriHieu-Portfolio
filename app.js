@@ -9,7 +9,7 @@ const projectData = {
     category: "Information Assurance",
     title: "Malware Analysis & Digital Forensics",
     description:
-      "A cybersecurity analysis project focused on examining suspicious samples inside an isolated analysis environment and investigating their behavior.",
+      "A information assurance analysis project focused on examining suspicious samples inside an isolated analysis environment and investigating their behavior.",
     highlights: [
       "Used FlareVM as an isolated malware-analysis environment.",
       "Observed network behavior and traffic using Wireshark.",
